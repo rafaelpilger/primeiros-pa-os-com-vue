@@ -20,24 +20,36 @@ function zeradorDOcontador() {
 </script>
 
 <template>
-  <div class="botoes">
+  <div>
   <button @click="zeradorDOcontador">zerar</button>
   <button @click="incrementarOcontador">Incrementar</button>
-  </div>
   <button @click="DecrementarOcontador">Decrementar</button>
-  <div class="zerador">
+  <div>
   <p>Valor do contador è : {{ contador }}</p>
+</div>
   </div>
 </template>
 
 <style scoped>
+  
+  div{
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: beige;
+    padding-left: 10%;
+  }
+  
   button{
     font-weight: bold;
-    border-radius: 30px;
-    border-color: aqua;
-    color: blue;
+    border-radius: 111px;
+    border-color: rgb(255, 0, 0);
+    color: black;
+    background-color: blue;
   }
   p{
-    color: red;
+    color: rgb(21, 255, 0);
+    
   }
 </style>
